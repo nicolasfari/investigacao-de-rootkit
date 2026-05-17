@@ -74,10 +74,6 @@ find / -name "spatch.ko" 2>/dev/null
 ```bash
 strings /usr/lib/modules/6.8.0-1016-aws/kernel/drivers/misc/spatch.ko
 ```
-
-**Resultado relevante:**
-<img width="996" height="881" alt="image" src="https://github.com/user-attachments/assets/ca9a369b-8d82-4f6e-8969-8591e910e7d8" />
-
 A flag estava codificada em hexadecimal dentro do binário do módulo.
 
 ---
