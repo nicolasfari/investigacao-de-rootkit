@@ -64,21 +64,18 @@ ss -tulnp
 ```bash
 find / -name "spatch.ko" 2>/dev/null
 ```
-
-<img width="996" height="881" alt="image" src="https://github.com/user-attachments/assets/b11f244c-0754-4672-91d6-9b882125ae58" />
-
----
-
-### 5. Extraindo strings do módulo
+e 
 
 ```bash
 strings /usr/lib/modules/6.8.0-1016-aws/kernel/drivers/misc/spatch.ko
 ```
 A flag estava codificada em hexadecimal dentro do binário do módulo.
 
+<img width="996" height="881" alt="image" src="https://github.com/user-attachments/assets/b11f244c-0754-4672-91d6-9b882125ae58" />
+
 ---
 
-### 6. Decodificando a flag
+### 5. Decodificando a flag
 
 Usando CyberChef (From Hex) ou o comando:
 
